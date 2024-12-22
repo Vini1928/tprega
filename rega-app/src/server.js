@@ -6,7 +6,7 @@ const path = require("path");
 const app = express();
 const port = 5000;
 
-const serviceAccount = require(path.join(__dirname, 'tprega-4d32c-dc6404462995.json'));
+const serviceAccount = require(path.join(__dirname, 'tprega-4d32c-firebase-adminsdk-1da6v-badf099ebb.json'));
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
